@@ -1,0 +1,21 @@
+.notfound svg path {
+    fill: transparent;
+    stroke: #fff;
+    stroke-width: 0.5;
+    stroke-dasharray: 370;
+    stroke-dashoffset: 0;
+    animation: draw 7s infinite alternate;
+}
+
+@keyframes draw {
+    0% {
+        stroke-dashoffset: 0;
+        fill: #fff;
+    }
+    50% {
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 370;
+    }
+}

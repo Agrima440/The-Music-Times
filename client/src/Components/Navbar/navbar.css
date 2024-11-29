@@ -1,0 +1,10 @@
+.menu-item {
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+.menu-overlay {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+} 
+

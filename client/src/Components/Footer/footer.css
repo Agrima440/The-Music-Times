@@ -1,0 +1,67 @@
+.footer {
+  @apply bg-footer-gradient text-gray-200 py-12 px-6;
+}
+
+.dark-footer {
+  @apply dark:bg-dark-gradient;
+}
+
+.footer-logo {
+  @apply max-w-[200px] w-full;
+}
+
+.footer-text {
+  @apply text-sm text-gray-900;
+}
+
+.dark-footer-text {
+  @apply dark:text-gray-200;
+}
+
+.footer-section-title {
+  @apply text-lg font-bold mb-2 text-blue-700;
+}
+
+.dark-footer-section-title {
+  @apply dark:text-blue-400;
+}
+
+.footer-input {
+  @apply w-[80%] border-none focus:bg-gray-100 placeholder-gray-500 mr-2 px-4 py-2 rounded bg-gray-200 text-gray-800;
+}
+
+.dark-footer-input {
+  @apply dark:bg-gray-800 dark:text-white dark:focus:bg-gray-700;
+}
+
+.footer-button {
+  @apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500;
+}
+
+.footer-links {
+  @apply flex flex-wrap justify-between items-center my-3 max-w-6xl mx-auto mt-8 text-center sm:text-left;
+}
+
+.footer-link-item {
+  @apply min-w-[80px] text-gray-900 hover:text-blue-400;
+}
+
+.dark-footer-link-item {
+  @apply dark:text-gray-200;
+}
+
+.footer-icons {
+  @apply flex justify-center space-x-3 mt-10;
+}
+
+.footer-icon {
+  @apply text-gray-200 text-xl hover:bg-white hover:rounded-md p-3 transition-all ease-in-out;
+}
+
+.footer-copyright {
+  @apply text-center mt-8 text-sm text-gray-700;
+}
+
+.dark-footer-copyright {
+  @apply dark:text-slate-200;
+}
